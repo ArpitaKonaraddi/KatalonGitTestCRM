@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://apps.trisysit.com/CRM/login')
 
 WebUI.setText(findTestObject('LOGIN/Username textfield'), 'admin_crm@trisysit.com')
 
-WebUI.setText(findTestObject('LOGIN/Password textfield'), '123')
+WebUI.setText(findTestObject('LOGIN/Password textfield'), '12345')
 
 WebUI.click(findTestObject('LOGIN/Sign In button'))
 
