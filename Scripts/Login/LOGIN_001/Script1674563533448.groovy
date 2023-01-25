@@ -27,3 +27,5 @@ WebUI.setText(findTestObject('LOGIN/Password textfield'), '12345')
 
 WebUI.click(findTestObject('LOGIN/Sign In button'))
 
+WebUI.closeBrowser()
+
